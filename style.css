@@ -1,0 +1,96 @@
+html, body 
+{
+  background-color: #f5f5f5; /* set background color of page */
+  height: 100%;
+  width: 100%;
+  font-family: fantasy;
+}
+
+/* How to Play Button and Reset button formatting */
+.how-to 
+{
+  float: right;
+  outline: none;
+  border: 0px;
+  background: none;
+}
+
+.reset
+{
+  float: right;
+  outline: none;
+  border: 0px;
+  background: none;
+}
+
+/* ProSportle Title formatting */
+h1 
+{
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* Results table header */
+.game-table_head .game-table_row
+{
+  display: grid;
+  grid-template-columns: 375px 120px 150px repeat(7, 80px); 
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+/* Results table body */
+
+.game-table_body .game-table_row .game-table_cell
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  background: white;
+  border: 1px solid white;
+  border-bottom: none;
+  border-left: none;
+  position: relative;
+  
+  
+  /*background: 0 0;
+  padding: initial;
+  grid-template-columns: 20px 120px 150px repeat(7, 80px);
+  grid-template-rows: 60px;
+  grid-template-areas: "name team conf div pos ht age no";
+  min-height: 96px;
+  display: grid;
+  */
+}
+
+/*.game-table_body .game-table_row .game-table_cell
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  background: white;
+  border: 1px solid white;
+  border-bottom: none;
+  border-left: none;
+  position: relative;
+}*/
+
+/* Guess box formatting */
+.guess-container 
+{
+  /*font-family: 'Lato', sans-serif;*/
+  overflow: hidden;
+  bottom: 0px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+
+

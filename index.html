@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ProSportle</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!-- Top Bar -->
+  <div class="how-to"> 
+    <button>
+      ?
+    </button>
+  </div>
+
+  <div class="reset">
+    <button>
+      Reset
+    </button>
+  </div>
+    
+
+  <!-- Title -->
+  <header>
+    <h1> ProSportle </h1>
+  </header>
+
+  <main>
+    <!-- Game Table -->
+    <div class="table-container"> 
+      <div class="game-table">
+        <!-- Header -->
+        <div class="game-table_head">
+          <div class="game-table_row">
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"> Sport </div>
+            <div class="game-table__cell"> Name </div>
+            <div class="game-table__cell"> Team </div>
+            <div class="game-table__cell"> Conf </div>
+            <div class="game-table__cell"> Div </div>
+            <div class="game-table__cell"> Pos </div>
+            <div class="game-table__cell"> Ht </div>
+            <div class="game-table__cell"> Age </div>
+            <div class="game-table__cell"> # </div>
+          </div>
+        </div>
+        <!-- Body -->
+        <div class="game-table_body">
+          <div class="game-table__row">
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"></div>
+            <div class="game-table__cell"></div>
+
+        </div>
+        
+      
+
+    
+    <!-- Guess box -->
+    <div class="guess-container"> 
+      <div id="autosuggest" class="search-bar">
+        <div role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="autosuggest-autosuggest__results">
+          <input type="text" autocomplete="off" aria-autocomplete="list" aria-activedescendant="" aria-controls="autosuggest-autosuggest__results" placeholder="Insert Name Here..." class="">
+        </div> 
+        <div id="autosuggest-autosuggest__results" class="autosuggest__results-container">
+        </div>
+      </div> 
+    </div>
+    
+  </main>
+  
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+
+  
+</body>
+
+</html>
